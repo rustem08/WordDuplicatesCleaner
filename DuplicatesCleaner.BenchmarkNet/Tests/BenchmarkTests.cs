@@ -4,9 +4,7 @@ using DuplicatesCleaner.FileProcessor;
 
 namespace DuplicatesCleaner.Benchmark.Tests
 {
-    [MemoryDiagnoser]
-    [SimpleJob(RuntimeMoniker.Net461, baseline: true)]
-    [SimpleJob(RuntimeMoniker.Net48)]
+    [SimpleJob(RuntimeMoniker.Net48, baseline: true)]
     [SimpleJob(RuntimeMoniker.Net60)]
     [SimpleJob(RuntimeMoniker.Mono60)]
     [RPlotExporter]

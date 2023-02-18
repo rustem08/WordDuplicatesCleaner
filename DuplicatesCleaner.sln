@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatesCleaner", "Duplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatesCleaner.FileProcessor", "DuplicatesCleaner.FileProcessor\DuplicatesCleaner.FileProcessor.csproj", "{DB1FFCB5-3FEC-452F-9CF1-B69D09611549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatesCleaner.Benchmark", "DuplicatesCleaner.Benchmark\DuplicatesCleaner.Benchmark.csproj", "{C8FE7FF4-F701-4339-844F-AB5EBFD4FBB2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatesCleaner.UnitTests", "DuplicatesCleaner.UnitTests\DuplicatesCleaner.UnitTests.csproj", "{EBFAAFF5-84F4-420F-B6FF-896EC402E2E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicatesCleaner.Benchmark", "DuplicatesCleaner.Benchmark\DuplicatesCleaner.Benchmark.csproj", "{C5D610A0-77F6-47EE-B55D-01B3AB4487DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{DB1FFCB5-3FEC-452F-9CF1-B69D09611549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1FFCB5-3FEC-452F-9CF1-B69D09611549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1FFCB5-3FEC-452F-9CF1-B69D09611549}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8FE7FF4-F701-4339-844F-AB5EBFD4FBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8FE7FF4-F701-4339-844F-AB5EBFD4FBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8FE7FF4-F701-4339-844F-AB5EBFD4FBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8FE7FF4-F701-4339-844F-AB5EBFD4FBB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBFAAFF5-84F4-420F-B6FF-896EC402E2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EBFAAFF5-84F4-420F-B6FF-896EC402E2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFAAFF5-84F4-420F-B6FF-896EC402E2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFAAFF5-84F4-420F-B6FF-896EC402E2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D610A0-77F6-47EE-B55D-01B3AB4487DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D610A0-77F6-47EE-B55D-01B3AB4487DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D610A0-77F6-47EE-B55D-01B3AB4487DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D610A0-77F6-47EE-B55D-01B3AB4487DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
